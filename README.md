@@ -1,4 +1,4 @@
-# bbv-storerobbery
+# http://discord.bbv.world
 ![StoreRobbery-main](https://github.com/BuddyNotFound/bbv-storerobbery/assets/74051918/c7de4115-7ff2-4b50-967c-4f21d1261b52)
 
 > BBV X WORLD | **STORE ROBBERY**
