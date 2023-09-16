@@ -28,7 +28,7 @@ end)
 
 RegisterNetEvent('bbv-robstore',function()
     if not HasCops() then 
-        Wrapper:Notify("Not enought police.")
+        Wrapper:Notify("Not enough  police.")
         return 
     end
     if Config.Settings.Framework == "QB" then 
