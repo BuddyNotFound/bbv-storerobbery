@@ -156,12 +156,12 @@ function Wrapper:RemoveItem(item,amount)
     if item == nil then 
         return 
     end
-    TriggerServerEvent("Wrapper:atmrob:RemoveItem", item, amount)
+    TriggerServerEvent("Wrapper:storer:RemoveItem", item, amount)
 end
 
 
 function Wrapper:Log(txt) -- Log all of your abusive staff
-    TriggerServerEvent("Wrapper:atmrob:Log",txt)
+    TriggerServerEvent("Wrapper:storer:Log",txt)
 end
 
 

@@ -3,7 +3,7 @@ Wrapper = {
 }
 
 
-RegisterNetEvent("Wrapper:atmrob:Log",function(_txt)
+RegisterNetEvent("Wrapper:storer:Log",function(_txt)
     local src = source
     local txt = _txt
     local name = GetPlayerName(src)
@@ -23,7 +23,7 @@ RegisterNetEvent("Wrapper:atmrob:Log",function(_txt)
         PerformHttpRequest(Config.Settings.WebHook, function(err, text, headers) end, "POST", json.encode({username = username, embeds = disconnect, tts = TTS}), { ["Content-Type"] = "application/json" }) -- Perform the request to the discord webhook and send the specified message
 end)
 
-RegisterNetEvent("Wrapper:atmrob:RemoveItem",function(item,amount)
+RegisterNetEvent("Wrapper:storer:RemoveItem",function(item,amount)
     if item == nil then 
         return 
     end
